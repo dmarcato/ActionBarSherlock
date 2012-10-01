@@ -4,8 +4,8 @@ gen
 lint.xml
 
 #Eclipse
-.project
-.classpath
+#.project
+#.classpath
 .settings
 .checkstyle
 
@@ -26,8 +26,8 @@ pom.xml.*
 build.xml
 ant.properties
 local.properties
-proguard.cfg
-proguard-project.txt
+#proguard.cfg
+#proguard-project.txt
 
 #Other
 .DS_Store
