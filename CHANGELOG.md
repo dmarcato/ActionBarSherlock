@@ -1,8 +1,13 @@
 Change Log
 ===============================================================================
 
-Version 4.2.0 *(In Development)*
---------------------------------
+Version 4.2.0 *(2012-10-07)*
+----------------------------
+
+**Maven `artifactId` is now 'actionbarsherlock'.**
+
+Note: The `.Dialog` themes are now deprecated. These will be removed in a future
+version of the library.
 
  * Add `SearchView` widget for standard search interaction (API 8+ only)
  * Fix: `ShareActionProvider` in the split action bar no longer fills the entire
@@ -19,6 +24,7 @@ Version 4.2.0 *(In Development)*
    `FragmentActivity`.
  * Fix: Ensure `CollapsibleActionView` callbacks are dispatched in both native
    and compatbility action bars.
+ * Fix: Remove `.ForceOverflow` themes. These never should have been included.
 
 
 Version 4.1.0 *(2012-05-17)*
