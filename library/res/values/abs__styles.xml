@@ -389,11 +389,11 @@
 
     <style name="TextAppearance.Sherlock.DialogWindowTitle" parent="Widget">
         <item name="android:textSize">22sp</item>
-        <item name="android:textColor">@color/abs__holo_blue_light</item>
+        <item name="android:textColor">?attr/mainHoloColor</item>
     </style>
     <style name="TextAppearance.Sherlock.Light.DialogWindowTitle" parent="Widget">
         <item name="android:textSize">22sp</item>
-        <item name="android:textColor">@color/abs__holo_blue_light</item>
+        <item name="android:textColor">?attr/mainHoloColor</item>
     </style>
 
     <style name="Sherlock.__TextAppearance.Small" parent="Widget">

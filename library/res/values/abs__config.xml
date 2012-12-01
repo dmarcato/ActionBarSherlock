@@ -39,5 +39,7 @@
          flag. This may be set to false for situations where space is
          extremely limited. -->
     <bool name="abs__config_allowActionMenuItemTextWithIcon">false</bool>
+    
+    <color name="mainHoloColor">@color/abs__holo_blue_light</color>
 
 </resources>
